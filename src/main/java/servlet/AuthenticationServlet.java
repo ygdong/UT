@@ -15,6 +15,10 @@ public class AuthenticationServlet extends HttpServlet{
     @Inject
     private AccountDao dao;
 
+    {
+
+    }
+
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         doRequest(req,resp);
